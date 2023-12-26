@@ -1,0 +1,78 @@
+.banner-section{
+    text-align: center;
+}
+
+.banner-section h1{
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+.banner-section h6{
+    font-size: 18px;
+    word-spacing: 2px;
+    letter-spacing: 2px;
+    margin-top: 15px;
+}
+
+.banner-section button{
+    margin-top: 30px;
+}
+
+.banner-section img{
+    max-width: 90%;
+    margin: 30px auto;
+}
+
+.number-info-section{
+    background-color: #101828;
+    background-image: url("../images/bg.webp");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 90% auto;
+    padding: 40px 0;
+}
+
+.number-info-section div{
+    text-align: center;
+}
+
+.number-info-section h5{
+    color: #ffffff;
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+.number-info-section h6{
+    color: #999ea7;
+    font-size: 14px;
+}
+
+
+@media (min-width: 992px) {
+    .banner-section h1 {
+        font-size: 64px;
+    }
+
+    .banner-section h6{
+        font-size: 20px;
+        word-spacing: 7px;
+        letter-spacing: 7px;
+        margin-top: 30px;
+    }
+
+    .banner-section button{
+        margin-top: 50px;
+    }
+
+    .number-info-section{
+        padding: 50px 0;
+    }
+
+    .number-info-section h5{
+        font-size: 56px;
+    }
+
+    .number-info-section h6{
+        font-size: 16px;
+    }
+}
